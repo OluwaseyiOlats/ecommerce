@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.Home{
+    background-image: url(andrea.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+.navbar{
+    display: flex;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    box-shadow: none;
+    z-index: 1000px;
+}
+.logo{
+    color: gold;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: sans-serif;
+    padding-left: 2%;
+    float: left;
+    padding-top: 5px;
+
+}
+.logo:hover{
+    color: black;
+}
+.logo span{
+    color: rgb(226, 43, 150);
+}
+
+.navbar ul Li{
+    justify-content: space-between;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px-25px;
+}
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.navbar ul li a:hover{
+    color: gold;
+}
+.btn1{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 100px;
+    padding: 2px;
+    border-radius: 150px;
+}
+.btn1:hover{
+    color: gold;
+}
+.btn2{
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 100px;
+    padding: 2px;
+    border-radius: 150px;
+}
+.btn2:hover{
+    color: white;
+}
+.container-2 h2{
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-2 h2 span{
+    color: rgb(226, 43, 150);
+}
+.container-2 p{
+    font-size: 1.2rem;
+}
+
+.btn3{
+    font-size: 50px;
+    background-color: rgb(226, 43, 150);
+    color: white;
+    text-decoration: none;
+    border: 5px solid transparent;
+    font-weight: 100px;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+/*another section*/
+
+.Product{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    height: 100vh;
+    width: 100%;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+.tech h2{
+    font-size: 3rem;
+}
+.tech h2 span{
+    color: rgb(226, 43, 150);
+}
+.testimonial{
+    display: flex;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.small-container{
+    
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.card1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    height: px;
+    width: 300px;
+    padding: 50px 60px;
+    background: greenyellow;
+    border-radius: 20px;
+    margin: 20px 0px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+col-2{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    margin: 15px;
+
+}
+.card2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;
+    padding: 50px 60px;
+    background: greenyellow;
+    border-radius: 20px;
+    margin: 20px 0px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px;
+    padding: 50px 60px;
+    background: greenyellow;
+    border-radius: 20px;
+    margin: 20px 0px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+/*Another section*/
+
+.Account{
+    background-image: url(ali-.jpg);
+    color: white;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+.contact{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1.0rem;
+}
+.address h3{
+    padding: 20px;
+    justify-content: center;
+    letter-spacing: 2px;
+
+
+}
+.form{
+    font-size: 50%;
+    margin: 10%;
+    padding: 5% 5% 5% 5%;
+    display: block;
+
+}
+.btn4{
+    font-size: 20px;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    border: 5px solid transparent;
+    font-weight: 50px;
+    padding: 1px;
+    border-radius: 10px;
+}
+.btn4:hover{
+    color: gold;
+}
+.form label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.form input{
+    justify-content: space-between;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    height: 70%;
+    width: 70%;
+    font-family: inherit;
+    border: 15px;
+}
+.form button{
+    background-color: gold;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px  8px;
+    border-radius: 15px;
+    transition: ease-in-out;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
